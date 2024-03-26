@@ -20,6 +20,24 @@ The primary aim of this project is to create a user-friendly Streamlit applicati
 * Integrate data visualization features within the Streamlit app to aid users in analyzing the retrieved data.
 
 
+  ***Project Flow:***
+
+* 1.Importing Libraries: The code starts by importing necessary libraries such as build from googleapiclient.discovery, pymongo, psycopg2, pandas, and streamlit. These libraries are used for various purposes such as interacting with Google's APIs, working with databases, handling data, and creating a web application interface using Streamlit.
+* 2.API Key Connection: The Api_connect() function establishes a connection to the YouTube Data API using a provided API key (Api_Id). It creates a service object (youtube) to interact with the YouTube API.
+* 3.Fetch Channel Information: The get_channel_info() function retrieves information about a specific YouTube channel based on its ID. It makes use of the channels().list() method of the YouTube API to fetch details like channel name, subscribers, views, etc.
+* 4.Fetch Video IDs: The get_videos_ids() function retrieves the IDs of all videos uploaded to a specific channel. It queries the YouTube API to get the list of videos associated with the channel ID.
+* 5.Fetch Video Information: The get_video_info() function retrieves detailed information about each video using its video ID. It fetches data such as video title, description, views, likes, comments, etc.
+* 6.Fetch Comment Box Information: The get_comment_info() function fetches comments associated with each video. It retrieves details like comment ID, text, author, etc.
+* 7.Fetch Playlist Information: The get_playlist_details() function retrieves details of playlists associated with a given channel.
+* 8.Function to Upload to MongoDB: The channel_details() function aggregates all the fetched information about a channel, its videos, playlists, and comments into a MongoDB document and uploads it to a MongoDB database.
+* 9.Functions to Create Tables for Channels, Videos, Playlists, and Comments: These functions are responsible for creating tables in a PostgreSQL database to store the fetched data in a structured format.
+* 10.Functions to Populate Tables: These functions extract data from the MongoDB database and populate the corresponding PostgreSQL tables.
+* 11.Functions to Show Tables: These functions retrieve data from the PostgreSQL database and display it using Streamlit.
+* 12.Streamlit Code: This section contains the Streamlit interface code, including text inputs, buttons, and radio buttons to interact with the application. It allows users to trigger data collection, migration to SQL, and view various tables.
+* 13.SQL Connection: Finally, the code establishes a connection to the PostgreSQL database and executes SQL queries based on user-selected questions to retrieve and display specific information from the database.
+Overall, the code aims to collect data from YouTube channels, store it in a MongoDB database, migrate it to a PostgreSQL database, and provide a user interface to query and view the stored data.
+
+
 
 ***Approach:***
 
