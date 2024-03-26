@@ -1,5 +1,7 @@
 ******YOUTUBE DATA HARVESTING & WAREHOUSING******
 
+
+
 ***Problem Statement:***
 
 The problem at hand is to develop a Streamlit application that empowers users to access and analyze data from multiple YouTube channels efficiently. The application needs to fulfill the following objectives:
@@ -7,6 +9,7 @@ The problem at hand is to develop a Streamlit application that empowers users to
 * Enable data collection for up to 10 different YouTube channels with the capability to store them in a data lake by activating a button.
 * Offer the option to store collected data in either MySQL or PostgreSQL databases.
 * Facilitate searching and retrieving data from the SQL database through various search options, incorporating table joins to acquire detailed channel information.
+
 
 
 ***Project Objective:***
@@ -18,6 +21,8 @@ The primary aim of this project is to create a user-friendly Streamlit applicati
 * Migrate collected data to a SQL data warehouse (MySQL or PostgreSQL).
 * Employ SQL queries to efficiently retrieve and manipulate data from the warehouse.
 * Integrate data visualization features within the Streamlit app to aid users in analyzing the retrieved data.
+
+
 
 
   ***Project Flow:***
@@ -36,6 +41,7 @@ The primary aim of this project is to create a user-friendly Streamlit applicati
 * 12.Streamlit Code: This section contains the Streamlit interface code, including text inputs, buttons, and radio buttons to interact with the application. It allows users to trigger data collection, migration to SQL, and view various tables.
 * 13.SQL Connection: Finally, the code establishes a connection to the PostgreSQL database and executes SQL queries based on user-selected questions to retrieve and display specific information from the database.
 Overall, the code aims to collect data from YouTube channels, store it in a MongoDB database, migrate it to a PostgreSQL database, and provide a user interface to query and view the stored data.
+
 
 
 
