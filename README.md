@@ -1,6 +1,6 @@
-YOUTUBE DATA HARVESTING & WAREHOUSING
+**YOUTUBE DATA HARVESTING & WAREHOUSING**
 
-Problem Statement:
+**Problem Statement:**
 
 The problem at hand is to develop a Streamlit application that empowers users to access and analyze data from multiple YouTube channels efficiently. The application needs to fulfill the following objectives:
 Allow users to input a YouTube channel ID and retrieve comprehensive data including the channel name, subscribers, total video count, playlist ID, video ID, likes, dislikes, and comments for each video utilizing the Google API.
@@ -9,7 +9,7 @@ Offer the option to store collected data in either MySQL or PostgreSQL databases
 Facilitate searching and retrieving data from the SQL database through various search options, incorporating table joins to acquire detailed channel information.
 
 
-Project Objective:
+**Project Objective:**
 
 The primary aim of this project is to create a user-friendly Streamlit application that seamlessly integrates with the YouTube API to retrieve and manage data from multiple channels. The key objectives are as follows:
 Develop a Streamlit app for user interaction and data display.
@@ -21,7 +21,7 @@ Integrate data visualization features within the Streamlit app to aid users in a
 
 
 
-Approach:
+**Approach:**
 
 The approach for accomplishing the project objectives involves several key steps:
 Set up Streamlit App: Create a user interface using Streamlit where users can input YouTube channel IDs and view channel details.
