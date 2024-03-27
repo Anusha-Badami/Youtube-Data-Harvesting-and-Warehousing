@@ -2,7 +2,7 @@
 
 
 
-***Problem Statement:***
+****Problem Statement:****
 
 The problem at hand is to develop a Streamlit application that empowers users to access and analyze data from multiple YouTube channels efficiently. The application needs to fulfill the following objectives:
 * Allow users to input a YouTube channel ID and retrieve comprehensive data including the channel name, subscribers, total video count, playlist ID, video ID, likes, dislikes, and comments for each video utilizing the Google API.
@@ -12,7 +12,7 @@ The problem at hand is to develop a Streamlit application that empowers users to
 
 
 
-***Project Objective:***
+****Project Objective:****
 
 The primary aim of this project is to create a user-friendly Streamlit application that seamlessly integrates with the YouTube API to retrieve and manage data from multiple channels. The key objectives are as follows:
 * Develop a Streamlit app for user interaction and data display.
@@ -25,7 +25,7 @@ The primary aim of this project is to create a user-friendly Streamlit applicati
 
 
 
-  ***Project Flow:***
+****Project Flow:****
 
 * Importing Libraries: The code starts by importing necessary libraries such as build from googleapiclient.discovery, pymongo, psycopg2, pandas, and streamlit. These libraries are used for various purposes such as interacting with Google's APIs, working with databases, handling data, and creating a web application interface using Streamlit.
 * API Key Connection: The Api_connect() function establishes a connection to the YouTube Data API using a provided API key (Api_Id). It creates a service object (youtube) to interact with the YouTube API.
@@ -46,7 +46,7 @@ Overall, the code aims to collect data from YouTube channels, store it in a Mong
 
 
 
-***Approach:***
+****Approach:****
 
 The approach for accomplishing the project objectives involves several key steps:
 * Set up Streamlit App: Create a user interface using Streamlit where users can input YouTube channel IDs and view channel details.
